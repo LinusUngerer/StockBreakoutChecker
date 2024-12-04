@@ -1,0 +1,73 @@
+Stock Breakout Watchlist
+This Python project identifies potential stock breakouts from the S&P 500 list based on a combination of price and volume criteria. It uses the Yahoo Finance API to download stock data and generates a watchlist for stocks that meet the defined criteria.
+
+Features
+Downloads stock data for the past 3 months (with daily intervals).
+Calculates a 50-day moving average (50_MA) for each stock.
+Calculates the 10-day average volume (10_AVG_VOL).
+Identifies stocks where:
+The stock price is above its 50-day moving average.
+The trading volume is at least 50% higher than the 10-day average volume.
+Outputs a list of stocks meeting the criteria, displaying:
+Ticker
+Current Price
+Trading Volume
+50-Day Moving Average (50_MA)
+Requirements
+Python 3.x
+yfinance library (for downloading stock data)
+pandas library (for data manipulation)
+To install the required libraries, run:
+
+bash
+Copy code
+pip install yfinance pandas
+Usage
+Clone or download the repository to your local machine.
+Ensure that all required libraries are installed.
+Modify the sp500 list with the stock tickers you want to analyze, or use the default list of S&P 500 companies.
+Run the script:
+bash
+Copy code
+python stock_breakout_watchlist.py
+The script will print out a list of stocks meeting the breakout criteria (price above the 50-day moving average and volume 50% higher than the 10-day average).
+
+Example Output:
+yaml
+Copy code
+Processing AAPL...
+Processing MSFT...
+Processing GOOGL...
+--------------------------------------------------
+Stocks Meeting Breakout Criteria:
+
+--------------------------------------------------
+Ticker: AAPL
+Price: 145.23
+Volume: 6,700,000
+50_MA: 142.35
+--------------------------------------------------
+Ticker: MSFT
+Price: 299.10
+Volume: 4,500,000
+50_MA: 290.00
+--------------------------------------------------
+Functions
+analyze_stock(ticker)
+Parameters: ticker (string) - Stock ticker symbol.
+Returns: A dictionary containing the stock data if it meets the breakout criteria or None if it doesn't.
+generate_watchlist(tickers)
+Parameters: tickers (list of strings) - List of stock ticker symbols.
+Returns: A list of stocks that meet the breakout criteria.
+display_watchlist(watchlist)
+Parameters: watchlist (list of dictionaries) - List of stocks that meet the breakout criteria.
+Returns: None (prints the watchlist to the console).
+Customization
+You can modify the list of stock tickers in the sp500 variable. Currently, it contains a list of S&P 500 companies. You can replace it with a custom list of tickers you want to analyze.
+
+Modify the breakout criteria:
+50_MA: Change the rolling window for the moving average calculation (currently set to 50 days).
+Volume: Adjust the percentage multiplier for the volume (currently set to 1.5 for 50% higher).
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
