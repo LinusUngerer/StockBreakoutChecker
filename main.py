@@ -20,7 +20,7 @@ stock_price_percentage_jump = 1.03
 stock_volume_percentage_jump = 2 #Adjust this percentage according to how much larger the volume must be.
 candle_percentage_jump = 1.01     #Adjust this percentage according to how large you want the candlestick jump must be from previous close to todays open
 candle_size_percentage_jump = 1.02 #Adjust this percentage according to how much larger the new candle must be than the old one.
-
+volume_amount = 500000
 #end_date = "2024-11-09" #datetime.now()
 #start_date ="2024-01-01"
 
@@ -57,6 +57,11 @@ def analyze_stock(ticker):
         if price_above_50_ma!=True:
             return None
         
+        volume_larger_than = latest['Volume'].iloc[0] >= volume_amount
+
+        if volume_larger_than!=True:
+            return None
+
         # Check if the stock's volume is 50% higher than the 10-day average volume
         high_volume = latest['Volume'].iloc[0] > stock_volume_percentage_jump * latest['10_AVG_VOL'].iloc[0]
 
