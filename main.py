@@ -14,6 +14,10 @@ sp500=['MMM', 'AOS', 'ABT', 'ABBV', 'ACN', 'ADBE', 'AMD', 'AES', 'AFL', 'A', 'AP
 'DXCM', 'FANG', 'DLR', 'DFS', 'DG', 'DLTR', 'D', 'DPZ', 'DOV', 'DOW', 'DHI', 'DTE', 'DUK', 'DD', 'EMN', 'ETN', 'EBAY', 'ECL', 'EIX', 'EW', 'EA', 'ELV', 'EMR', 'ENPH', 'ETR', 'EOG', 'EPAM', 'EQT', 'EFX', 'EQIX', 'EQR', 'ERIE', 'ESS', 'EL', 'EG', 'EVRG', 'ES', 'EXC', 'EXPE', 'EXPD', 'EXR', 'XOM', 'FFIV', 'FDS', 'FICO', 'FAST', 'FRT', 'FDX', 'FIS', 'FITB', 'FSLR', 'FE', 'FI', 'FMC', 'F', 'FTNT', 'FTV', 'FOXA', 'FOX', 'BEN', 'FCX', 'GRMN', 'IT', 'GE', 'GEHC', 'GEV', 'GEN', 'GNRC', 'GD', 'GIS', 'GM', 'GPC', 'GILD', 'GPN', 'GL', 'GDDY', 'GS', 'HAL', 'HIG', 'HAS', 'HCA', 'DOC', 'HSIC', 'HSY', 'HES', 'HPE', 'HLT', 'HOLX', 'HD', 'HON', 'HRL', 'HST', 'HWM', 'HPQ', 'HUBB', 'HUM', 'HBAN', 'HII', 'IBM', 'IEX', 'IDXX', 'ITW', 'INCY', 'IR', 'PODD', 'INTC', 'ICE', 'IFF', 'IP', 'IPG', 'INTU', 'ISRG', 'IVZ', 'INVH', 'IQV', 'IRM', 'JBHT', 'JBL', 'JKHY', 'J', 'JNJ', 'JCI', 'JPM', 'JNPR', 'K', 'KVUE', 'KDP', 'KEY', 'KEYS', 'KMB', 'KIM', 'KMI', 'KKR', 'KLAC', 'KHC', 'KR', 'LHX', 'LH', 'LRCX', 'LW', 'LVS', 'LDOS', 'LEN', 'LLY', 'LIN', 'LYV', 'LKQ', 'LMT', 'L', 'LOW', 'LULU', 'LYB', 'MTB', 'MPC', 'MKTX', 'MAR', 'MMC', 'MLM', 'MAS', 'MA', 'MTCH', 'MKC', 'MCD', 'MCK', 'MDT', 'MRK', 'META', 'MET', 'MTD', 'MGM', 'MCHP', 'MU', 'MSFT', 'MAA', 'MRNA', 'MHK', 'MOH', 'TAP', 'MDLZ', 'MPWR', 'MNST', 'MCO', 'MS', 'MOS', 'MSI', 'MSCI', 'NDAQ', 'NTAP', 'NFLX', 'NEM', 'NWSA', 'NWS', 'NEE', 'NKE', 'NI', 'NDSN', 'NSC', 'NTRS', 'NOC', 'NCLH', 'NRG', 'NUE', 'NVDA', 'NVR', 'NXPI', 'ORLY', 'OXY', 'ODFL', 'OMC', 'ON', 'OKE', 'ORCL', 'OTIS', 'PCAR', 'PKG', 'PLTR', 'PANW', 'PARA', 'PH', 'PAYX', 'PAYC', 'PYPL', 'PNR', 'PEP', 'PFE', 'PCG', 'PM', 'PSX', 'PNW', 'PNC', 'POOL', 'PPG', 'PPL', 'PFG', 'PG', 'PGR', 'PLD', 'PRU', 'PEG', 'PTC', 'PSA', 'PHM', 'QRVO', 'PWR', 'QCOM', 'DGX', 'RL', 'RJF', 'RTX', 'O', 'REG', 'REGN', 'RF', 'RSG', 'RMD', 'RVTY', 'ROK', 'ROL', 'ROP', 'ROST', 'RCL', 'SPGI', 'CRM', 'SBAC', 'SLB', 'STX', 'SRE', 'NOW', 'SHW', 'SPG', 'SWKS', 
 'SJM', 'SW', 'SNA', 'SOLV', 'SO', 'LUV', 'SWK', 'SBUX', 'STT', 'STLD', 'STE', 'SYK', 'SMCI', 'SYF', 'SNPS', 'SYY', 'TMUS', 'TROW', 'TTWO', 'TPR', 'TRGP', 'TGT', 'TEL', 'TDY', 'TFX', 'TER', 'TSLA', 'TXN', 'TPL', 'TXT', 'TMO', 'TJX', 'TSCO', 'TT', 'TDG', 'TRV', 'TRMB', 'TFC', 'TYL', 'TSN', 'USB', 'UBER', 'UDR', 'ULTA', 'UNP', 'UAL', 'UPS', 'URI', 'UNH', 'UHS', 'VLO', 'VTR', 'VLTO', 'VRSN', 'VRSK', 'VZ', 'VRTX', 'VTRS', 'VICI', 'V', 'VST', 'VMC', 'WRB', 'GWW', 'WAB', 'WBA', 'WMT', 'DIS', 'WBD', 'WM', 'WAT', 'WEC', 'WFC', 'WELL', 'WST', 'WDC', 'WY', 'WMB', 'WTW', 'WYNN', 'XEL', 'XYL', 'YUM', 'ZBRA', 'ZBH', 'ZTS']
 
+test1217 = ['AVGO','BBAR','BMA','CANG','ELSE','ESLT','ESOA','FEIM','GGAL','GRND','NN','QUBT','SUPV']
+
+tickers12202024 = ['AADI', 'AVO', 'CCL', 'CLW', 'CTM', 'CUK', 'EDBL', 'FREY', 'FRSX', 'ISSC', 'LRHC', 'LTRY', 'LXEH', 'MAPS', 'MYNZ', 'NVNI', 'ONMD', 'PRLD', 'RCL', 'RENB', 'RVSN', 'VNCE', 'XLO']
+
 
 #Added in Variance vars
 stock_price_percentage_jump = 1.03
@@ -30,13 +34,16 @@ volume_amount = 500000
 def analyze_stock(ticker):
     try:
         # Download the last 3 months of daily stock data for the ticker
-        stock_data = yf.download(ticker, period="3mo", interval="1d" )
+        stock_data = yf.download(ticker, period="1y", interval="1d" )
+
+        
 
         #Backtesting to known Breakout. Days must be larger than 3 months range for 50MA
        # stock_data = yf.download(ticker, start=start_date, end=end_date)
         
-        # Calculate the 50-day moving average
+        # Calculate the 50-day/150-day moving average
         stock_data['50_MA'] = stock_data['Close'].rolling(window=50).mean()
+        stock_data['150_MA'] = stock_data['Close'].rolling(window=150).mean()
         
         # Calculate the 10-day average volume
         stock_data['10_AVG_VOL'] = stock_data['Volume'].rolling(window=10).mean()
@@ -45,10 +52,19 @@ def analyze_stock(ticker):
         latest = stock_data.iloc[-1]
         yesterday = stock_data.iloc[-2]
 
-        # Todays Open must be at least 3% larger than yesterdays close.
-        price_open_is_greater_than_yesterday=latest['Open'][ticker]> candle_percentage_jump * yesterday['Close'][ticker]
 
-        if price_open_is_greater_than_yesterday!=True:
+        # Calculate if the past 50MA is Larger than then 150MA meaning a Bullish trend
+        MovingAverage50Larger150 = latest['50_MA']['']>latest['150_MA']['']
+
+
+        # If Trend is not bullish kick out.
+        if MovingAverage50Larger150 != True:
+            return None
+
+        # Todays Open must be at least 3% larger than yesterdays close.
+        price_open_is_greater_than_yesterday = latest['Open'][ticker] > candle_percentage_jump * yesterday['Close'][ticker]
+
+        if price_open_is_greater_than_yesterday != True:
             return None
         
         # Check if the stock price is above the 50-day moving average
@@ -128,7 +144,7 @@ def display_watchlist(watchlist):
 
 # Generate the watchlist of stocks that meet the breakout criteria
 sp500_cleaned = [item for item in nasdaq if '^' not in item]
-watchlist = generate_watchlist(sp500_cleaned)
+watchlist = generate_watchlist(tickers12202024)
 
 # Display the results
 display_watchlist(watchlist)
