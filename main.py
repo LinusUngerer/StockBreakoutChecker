@@ -19,6 +19,9 @@ test1217 = ['AVGO','BBAR','BMA','CANG','ELSE','ESLT','ESOA','FEIM','GGAL','GRND'
 tickers12202024 = ['AADI', 'AVO', 'CCL', 'CLW', 'CTM', 'CUK', 'EDBL', 'FREY', 'FRSX', 'ISSC', 'LRHC', 'LTRY', 'LXEH', 'MAPS', 'MYNZ', 'NVNI', 'ONMD', 'PRLD', 'RCL', 'RENB', 'RVSN', 'VNCE', 'XLO']
 
 
+tickers150matest = ['AADI', 'AVO', 'CCL', 'CTM', 'CUK', 'FREY', 'ISSC', 'MAPS', 'MYNZ', 'RCL', 'VNCE', 'XLO']
+
+
 #Added in Variance vars
 stock_price_percentage_jump = 1.03
 stock_volume_percentage_jump = 2 #Adjust this percentage according to how much larger the volume must be.
@@ -144,7 +147,7 @@ def display_watchlist(watchlist):
 
 # Generate the watchlist of stocks that meet the breakout criteria
 sp500_cleaned = [item for item in nasdaq if '^' not in item]
-watchlist = generate_watchlist(tickers12202024)
+watchlist = generate_watchlist(tickers150matest)
 
 # Display the results
 display_watchlist(watchlist)
